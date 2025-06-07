@@ -57,3 +57,4 @@ Everything you need to make your own Square Pad, minus the solder, glue, sweat, 
 - 1x case_top.stl
 - 1x case_mid.stl
 - 1x case_btm.stl
+- 4x 10mm Rubber Pads (or just use hot glue)
