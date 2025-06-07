@@ -5,5 +5,5 @@ The original CAD is available on Onshape: https://cad.onshape.com/documents/7a4a
 
 ## Case
 
-To make the case, print one of each file in `3d_print`, models are already in the recommended orientation.  
+To make the case, print one of each file in `stl`, models are already in the recommended orientation.  
 The models have been optimized to require minimal supports. Supports are only needed for horizontals overhangings in the top part, and depending on your printer's bridging abilities, the USB Type-C port in the middle part may need supports.
