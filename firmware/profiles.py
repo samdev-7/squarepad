@@ -28,10 +28,10 @@ class OnShapeProfile(BaseProfile):
 
     def get_keymap(self):
         return = [
-            [KC.LSFT(KC.X),  KC.LSFT(KC.N2), KC.N,           KC.NO],         # Section view, Rear view, View normal to
-            [KC.LSFT(KC.N3), KC.LSFT(KC.N7), KC.LSFT(KC.N4), KC.LALT(KC.T)], # Left view, Iso view, Right view, Tab manager
-            [KC.LSFT(KC.N5), KC.LSFT(KC.N1), KC.LSFT(KC.N6), KC.LSFT(KC.T)], # Top view, Front view, Bottom view, Make transparent
-            [KC.LSFT(KC.E),  KC.LSFT(KC.F),  KC.TILDE,       KC.LSFT(KC.S)]  # Extrude, Fillet, Select other, New sketch
+            [KC.LSFT(KC.X),  KC.LSFT(KC.N2), KC.NO],          # Section view, Rear view
+            [KC.LSFT(KC.N3), KC.LSFT(KC.N7), KC.LSFT(KC.N4)], # Left view, Iso view, Right view
+            [KC.LSFT(KC.N5), KC.LSFT(KC.N1), KC.LSFT(KC.N6)], # Top view, Front view, Bottom view
+            [KC.LSFT(KC.E),  KC.LSFT(KC.T),  KC.LSFT(KC.S)]   # Extrude, Make transparent , New sketch
         ]
 
     def get_encoder_map(self):
@@ -47,10 +47,10 @@ class SlackProfile(BaseProfile):
 
     def get_keymap(self):
         return = [
-            [KC.LCTL(KC.COMMA),       KC.LCTL(KC.LSFT(KC.TAB)), KC.LCTL(KC.TAB),            KC.NO],                     # Preferences, Prev workspace, Next workspace
-            [KC.LCTL(KC.LSFT(KC.N)),  KC.LCTL(KC.U),            KC.LCTL(KC.LSFT(KC.ENTER)), KC.LCTL(KC.LSFT(KC.J))],    # New canvas, Upload file, New Snippet, View downloads
-            [KC.LCTL(KC.LSFT(KC.N1)), KC.LCTL(KC.LSFT(KC.N2)),  KC.LCTL(KC.LSFT(KC.N3)),    KC.LCTL(KC.LSFT(KC.T))],    # Home, DMs, Threads
-            [KC.LCTL(KC.K),           KC.LCTL(KC.F),            KC.LCTL(KC.Z),              KC.LCTL(KC.LSFT(KC.SPACE))] # Quick actions, Search, Undo, Huddle mute
+            [KC.LCTL(KC.LSFT(KC.TAB)), KC.LCTL(KC.TAB),          KC.NO],                      # Prev workspace, Next workspace
+            [KC.LCTL(KC.LSFT(KC.N)),   KC.LCTL(KC.U),            KC.LCTL(KC.LSFT(KC.ENTER))], # New canvas, Upload file, New Snippet
+            [KC.LCTL(KC.LSFT(KC.N1)),  KC.LCTL(KC.LSFT(KC.N2)),  KC.LCTL(KC.LSFT(KC.N3))],    # Home, DMs, Activity
+            [KC.LCTL(KC.K),            KC.LCTL(KC.F),            KC.LCTL(KC.LSFT(KC.SPACE))]  # Quick actions, Search, Huddle mute
         ]
 
     def get_encoder_map(self):
