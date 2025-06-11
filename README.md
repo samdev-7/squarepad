@@ -51,7 +51,7 @@ Everything you need to make your own Square Pad, minus the solder, glue, sweat, 
 - 1x 0.91" OLED Display
 - 8x Cherry MX Switches
 - 8x Blank DSA Keycaps
-- 9x Diode (DHD)
+- 9x Diode (THT)
 - 12x SK6812 Mini LEDs
 - Wires (for display)
 
