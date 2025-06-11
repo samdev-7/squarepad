@@ -57,7 +57,7 @@ Everything you need to make your own Square Pad, minus the solder, glue, sweat, 
 
 ## Case
 
-- 6x M2x16mm Screw
+- 6x M2x16mm Screw (note: I'll source these myself)
 - 1x case_top.stl
 - 1x case_mid.stl
 - 1x case_btm.stl
