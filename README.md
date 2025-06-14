@@ -21,9 +21,9 @@ This is my first time designing a macropad/keyboard! Tons of Googling and buggin
 
 A total of 0 vias are on the PCB, ignoring THT and mounting holes. (there's no benefit to this, don't ask why)
 
-<img alt="Schematic of the Square Pad PCB" src="https://github.com/user-attachments/assets/f1661084-6216-4a05-bc79-a689476b5d73" width="600" />
+<img alt="Schematic of the Square Pad PCB" src="https://github.com/user-attachments/assets/219fb928-df4e-4629-8029-a09e3f1f5894" width="600" />
 
-<img alt="Layout of the Square Pad PCB" src="https://github.com/user-attachments/assets/01ee51a5-0c14-46c7-97fd-414cb924b758" width="600" />
+<img alt="Layout of the Square Pad PCB" src="https://github.com/user-attachments/assets/a2dec805-bddf-4c3a-8722-cbbf7f57c7b1" width="600" />
 
 The PCB was designed in KiCad
 
@@ -57,7 +57,7 @@ Everything you need to make your own Square Pad, minus the solder, glue, sweat, 
 
 ## Case
 
-- 6x M2x16mm Screw (note: I'll source these myself)
+- 6x M2x16mm Screw
 - 1x case_top.stl
 - 1x case_mid.stl
 - 1x case_btm.stl
