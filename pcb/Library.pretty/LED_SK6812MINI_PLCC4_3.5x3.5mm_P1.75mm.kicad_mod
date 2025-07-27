@@ -1,7 +1,7 @@
 (footprint "LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
 	(tags "LED RGB NeoPixel Mini PLCC-4 3535")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d59d046c-c730-4aa6-a088-ed1f36e076fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "974be58e-74de-4e07-947f-98852335e05c")
 	)
@@ -218,29 +208,30 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.75 -0.875)
+		(at 1.75 -0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3aa8cc5d-54e5-4038-aae5-88b9a0043bb9")
 	)
 	(pad "2" smd rect
-		(at -1.75 0.875)
+		(at 1.75 0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a5b3312-e555-4b96-8d26-1be1020a0691")
 	)
 	(pad "3" smd rect
-		(at 1.75 0.875)
+		(at -1.75 0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "80a855b4-41b1-40fc-89fa-5d46a84d59c1")
 	)
 	(pad "4" smd rect
-		(at 1.75 -0.875)
+		(at -1.75 -0.875)
 		(size 1.6 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf51f97d-70b8-403d-b9e7-1c48bc155b9d")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
 		(offset
 			(xyz 0 0 0)
