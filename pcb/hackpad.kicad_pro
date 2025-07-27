@@ -515,7 +515,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../production/gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "hackpad.step",
